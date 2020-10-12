@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=EB+Garamond&family=Exo+2:wght@500&family=Roboto+Slab&family=Rubik:wght@400;500&family=Sora:wght@500&display=swap');
+
+
+body {
+    background: url(https://ak.picdn.net/shutterstock/videos/15922087/thumb/1.jpg);
+    color: white;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: black;
+    background-attachment: fixed;
+    padding-bottom: 0.4em;
+    color: rgb(222, 222, 230);
+    text-align: center;
+    padding-top: 0.2em;
+}
+.UI {
+    font-size: 23px;
+}
+
+.back {
+    padding-left: 11em;
+    padding-top: 5em;
+}
+
+.facts {
+    /*width: auto;*/
+    padding-right: 23em;
+    padding-left: 23em;
+}
+
+.para1 {
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom: 1em;
+}
+h1 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 1em;
+    border-bottom-style: solid;
+    border-color: rgb(77, 74, 74)
+}
+ol {
+    padding-top: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1020px) {
+    .facts{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+}
+
+@media screen and (max-width: 810px) {
+    .facts{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .facts{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .back {
+        padding-left: 3em;
+        padding-top: 2em;
+    }
+    ol {
+        font-size: 20px;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    h1 {
+        font-size: 47px;
+        font-family: 'Cabin', sans-serif;
+    }
+    
+}

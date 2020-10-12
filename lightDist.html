@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <title>Calculate</title>
+    <link rel="stylesheet" href="lightDist.css">
+    <body>
+        
+    <div class="calculator">
+    <h1>Calculate distance travelled by light</h1>
+    <script>
+        function LightYears(){
+            var a,c;
+            a=Number(document.getElementById("first").value);
+            c= (a*31566000)*300000;
+            document.getElementById("answer").value= c;
+        }
+    </script>
+    
+    <div class="text">Time (in years) : </div><input id="first">
+    
+    <button onclick="LightYears()">calculate</button><br>
+    
+    <input id="answer"> Km <br><br><br></div>
+    
+     <section>
+            
+    <h1>What is a light year ?</h1>
+
+    <p> Light year is basically the amount of distance light travel in a year. Its an astronomical unit. Similarly we also 
+    have terms as Light months, Light Hours, Light Minutes, Light seconds etc. But on the Universe scale we use Light 
+    Years. Abbreviations used for light-years and multiples of light-years are<br><br>
+
+    <ul>
+        <li>"ly" for one light-year</li>
+        <li>"kly" for a kilolight-year (1,000 light-years)</li>
+        <li>"Mly" for a megalight-year (1,000,000 light-years)</li>
+        <li>"Gly" for a gigalight-year (1,000,000,000 light-years)</li>
+    </ul><br><br></p>
+
+    <img src="https://www.centauri-dreams.org/wp-content/uploads/2015/11/nearest_star.jpg" alt="Image Unavailable"/><br><br>
+    <h3>This is the distance from Sun to Alpha Centauri (neartest star to earth after sun)</h3><br><br>
+     </section> 
+    
+    
+     <footer>
+    <h2>Example : </h2>
+
+    <p> Distance traveled by light in 1 Year = 94.6x10<sup>12</sup> km<br></p>
+
+    <h2>Explained below :</h2>
+
+    <p> Speed of Light = 3x10<sup>8</sup>m/s<br>
+
+    OR 3x10<sup>6</sup>km/sec
+    <br><br></p>
+
+    <p> Time required for light to cover 94.6x10<sup>12</sup>km (obtained by speed of light x total seconds in 1 year) = 1 Year.<br><br></p>
+
+    <p> We have formula, <br><br></p>
+
+    <p> Speed = Distance / Time <br><br></p>
+
+    <p> <b> Similarly,</b></p> <br>
+    
+    <p> Distance = Speed x Time and <br><br></p>
+
+    <p> Time = Distance / Speed<br><br></p>
+
+    <p> For the concept of light, we can use <br><br></p>
+
+   <p> c = ly / year <br><br></p>
+
+    <p> For 1 Light Year (ly)<br><br></p>
+
+   <p> 1ly = c x 1year<br><br>
+    1ly = 94.6x10<sup>12</sup>km<br><br></p>
+    </footer>
+
+    
+    </body>
+</html>

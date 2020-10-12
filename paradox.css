@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=EB+Garamond&family=Exo+2:wght@500&family=Roboto+Slab&family=Rubik:wght@400;500&family=Sora:wght@500&display=swap');
+
+body {
+    background: url(https://ak.picdn.net/shutterstock/videos/15922087/thumb/1.jpg);
+    color: white;
+    background-attachment: fixed;
+}
+header {
+    background-color: black;
+    background-attachment: fixed;
+    padding-bottom: 0.4em;
+    color: rgb(222, 222, 230);
+    text-align: center;
+    padding-top: 0.2em;
+}
+.back {
+    padding-left: 11em;
+    padding-top: 5em;
+}
+.UI {
+    font-size: 23px;
+}
+h3 {
+    font-family: Cambria;
+    text-align: center;
+    font-size: 28px;
+}
+h1 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 57px;
+}
+.statement {
+    font-family: 'Roboto', sans-serif;
+    padding-right: 0.7em;
+    font-size: 20px;
+}
+p {
+    font-family: Cambria;
+    padding-right: 0.8em;
+    font-size: 23px;
+}
+.learn-more {
+    font-size: 22px;
+}
+.points {
+    font-family: Cambria;
+    font-size: 22px;
+    padding-right: 0.7em;
+}
+.paradoxes {
+        /*width: auto;*/
+        padding-right: 23em;
+        padding-left: 23em;
+}
+.para1 {
+    background-color: white;
+    color: black;
+    padding-top: 0.1em;
+    padding-left: 1.1em;
+    padding-bottom: 1em;
+    border-radius: 15px;
+}
+.para2 {
+    margin-top: 2em;
+    background-color: white;
+    color: black;
+    padding-top: 0.1em;
+    padding-left: 1.1em;
+    padding-bottom: 1em;
+    border-radius: 15px;
+}
+.para3 {
+    margin-top: 2em;
+    background-color: white;
+    color: black;
+    padding-top: 0.1em;
+    padding-left: 1.1em;
+    border-radius: 15px;
+}
+.para4 {
+    margin-top: 2em;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-top: 0.1em;
+    border-radius: 15px;
+}
+.para5 {
+    margin-top: 2em;
+    background-color: white;
+    color: black;
+    padding-top: 0.1em;
+    padding-left: 1.1em;
+    border-radius: 15px;
+}
+.para6 {
+    margin-top: 2em;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-top: 0.1em;
+    padding-bottom:1em ;
+    border-radius: 15px;
+}
+
+.image1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+      
+}
+.image {
+    display: flex;
+}
+.image2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+      
+}
+.image3 {
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;    
+}
+.image4 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        height: 50%;
+      
+}
+.image5 {
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+}
+.image6 {
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 33%;
+}
+.image7 {
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 33%; 
+}
+.image8 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image9 {
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 53%;
+}
+a {
+    color: red;
+    text-decoration: none;
+    text-transform: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+a:active {
+    color: black;
+  }
+  
+a:visited {
+    color: purple;
+  }
+
+@media screen and (max-width: 1020px){
+    .paradoxes {
+        padding-left: 2em;
+         padding-right: 2em;
+       
+    }
+    .pr {
+        font-size: 20px;
+    }
+    .statement {
+        font-size: 20px;
+    }
+    .points {
+        font-size: 20px;
+    }
+    .learn-more {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 810px) {
+     .paradoxes {
+         padding-left: 2em;
+         padding-right: 2em;
+     }
+     .head {
+        font-size: 18px;
+    }
+    .statement {
+        font-size: 17px ;
+    }
+    .statement h2 {
+        font-size: 25px;
+    }
+    .pr {
+        font-size: 19px;
+    }
+    .learn-more {
+        font-size: 20px;
+    }
+    .points {
+        padding-right: 0.5em;
+    }
+    .image1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    .image3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image4 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image {
+        display: flow-root;
+    }
+    .image5 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image-6 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: 69%;
+    }
+    .image6 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image7 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image9 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .paradoxes {
+        padding-left: 2em;   
+        padding-right: 2em;
+    }
+    h3 {
+        font-family: Cambria;
+        text-align: center;
+        font-size: 22px;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    .back {
+        padding-left: 3em;
+        padding-top: 2em;
+    }
+    .statement h2 {
+        font-size: 23px;
+    }
+    .statement b {
+        text-align: center;
+        padding-right: 0.5em;       
+    }
+
+    .pr {
+        font-size: 20px;
+        padding-right: 0.5em;
+    }
+    .points {
+        padding-right: 0.5em;
+        font-size:19px;
+    }
+    .learn-more {
+        font-size: 19px;
+    }
+    .image1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    .image3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image4 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image {
+        display: flow-root;
+    }
+    .image5 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image-6 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: 69%;
+    }
+    .image6 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image7 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image9 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+        height: 53%;
+    }
+    .button {
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        background-color: #f50707;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 10px;
+        width: 352px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+      
+      .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .button:hover span {
+        padding-right: 25px;
+      }
+      
+      .button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+}

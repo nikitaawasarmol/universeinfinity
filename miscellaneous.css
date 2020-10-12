@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=EB+Garamond&family=Exo+2:wght@500&family=Roboto+Slab&family=Rubik:wght@400;500&family=Sora:wght@500&display=swap');
+
+
+body {
+    background: url(https://ak.picdn.net/shutterstock/videos/15922087/thumb/1.jpg);
+    color: white;
+    background-attachment: fixed;
+}
+header {
+    background-color: black;
+    background-attachment: fixed;
+    padding-bottom: 0.4em;
+    color: rgb(222, 222, 230);
+    text-align: center;
+    padding-top: 0.2em;
+}
+.UI {
+    font-size: 23px;
+}
+h3 {
+    font-family: Cambria;
+    text-align: center;
+    font-size: 28px;
+}
+.back {
+    padding-left: 11em;
+    padding-top: 5em;
+}
+h1 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 47px;
+}
+p {
+    font-family: Cambria;
+    font-size: 23px;
+    padding-right: 0.5em;
+}
+.points {
+    font-family: Cambria;
+    font-size: 22px;
+    padding-right: 2em;
+}
+
+.miss {
+    /*width: auto;*/
+    padding-right: 23em;
+    padding-left: 23em;
+}
+
+.para1 {
+    margin-top: 2em;
+    padding-top: 0.1em;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom: 1em;
+}
+.para2 {
+    margin-top: 2em;
+    padding-top: 0.1em;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom: 1em;
+}
+.para3 {
+    margin-top: 2em;
+    padding-top: 0.1em;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom: 1em;
+}
+.para4 {
+    margin-top: 2em;
+    padding-top: 0.1em;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom: 1em;
+}
+.para5 {
+    margin-top: 2em;
+    padding-top: 0.1em;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom: 1em;
+}
+.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  
+}
+.image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+.image3 {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;    
+}
+.image4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 50%;
+  
+}
+.image5 {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.image6 {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 43%;
+}
+.image7 {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 39%; 
+}
+.image8 {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+.image9 {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 53%;
+}
+.image10 {
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 53%;
+}
+.image11 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+}
+.image12 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 53%;
+}
+.image13 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+}
+.image14 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 46%;
+}
+.image15 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 53%;
+}
+.image16 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 53%;
+    height: 60%;
+}
+.image17 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 43%;
+}
+.image18 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 43%;
+}
+
+
+@media screen and (max-width: 1020px){
+    .miss {
+        padding-left: 2em;
+         padding-right: 2em;
+       
+    }
+    .pr {
+        font-size: 20px;
+    }
+    .points {
+        font-size: 20px;
+    }
+    .image1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+        height: 60%;
+    }
+    .image2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        height: 50%;
+    }
+    .image3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image4 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image5 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+        height: 60%;
+    }
+    .image6 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        height: 49%;
+    }
+    .image7 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+        height: 60%;
+    }
+    .image8 {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 63%;
+     height: 60%;
+ }
+    .image9 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+        height: 70%;
+    }
+    .image10 {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 63%;
+     height: 60%;
+ }
+ .image11 {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 63%;
+     height: 60%;
+ }
+ .image12 {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 63%;
+ }
+ .image13 {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 63%;
+     height: 60%;
+ }
+ .image14 {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 63%;
+     height: 60%;
+ }
+ .image15 {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 63%;
+     height: 60%;
+ }
+ .image16 {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 63%;
+ }
+ .image17 {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 63%;
+     height: 60%;
+ }
+ .image18 {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 63%;
+     height: 60%;
+ }
+}
+
+@media screen and (max-width: 810px) {
+    .miss {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+   .pr {
+       font-size: 19px;
+   }
+   h1 {
+       font-size: 40px;
+        
+   }
+   .points {
+       padding-right: 1.7em;
+   }
+   .image1 {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 63%;
+       height: 60%;
+   }
+   .image2 {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 60%;
+       height: 50%;
+   }
+   .image3 {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 63%;
+   }
+   .image4 {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 63%;
+   }
+   .image5 {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 63%;
+       height: 60%;
+   }
+   .image6 {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 70%;
+       height: 49%;
+   }
+   .image7 {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 63%;
+       height: 60%;
+   }
+   .image8 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 63%;
+    height: 60%;
+}
+   .image9 {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 63%;
+       height: 70%;
+   }
+   .image10 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 63%;
+    height: 60%;
+}
+.image11 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 63%;
+    height: 60%;
+}
+.image12 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 63%;
+}
+.image13 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 63%;
+    height: 60%;
+}
+.image14 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 63%;
+    height: 60%;
+}
+.image15 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 63%;
+    height: 60%;
+}
+.image16 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 63%;
+}
+.image17 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 63%;
+    height: 60%;
+}
+.image18 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 63%;
+    height: 60%;
+}
+}
+@media screen and (max-width: 510px) {
+    .miss {
+        padding-left: 2em;   
+        padding-right: 2em;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .back {
+        padding-left: 3em;
+        padding-top: 2em;
+    }
+
+    p {
+        font-size: 20px;
+        padding-right: 0.5em;
+    }
+    .points {
+        padding-right: 0.5em;
+        font-size:19px;
+    }
+   
+    .image1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    .image3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image4 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image5 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image6 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image7 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image9 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+        height: 53%;
+    }
+    .image10 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: 69%;
+    }
+    .image11 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: 69%;
+    }
+    .image12 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: 69%;
+    }
+    .image13 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: 69%;
+    }
+    .image14 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: 69%;
+    }
+    .image15 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: 69%;
+    }
+    .image16 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: 69%;
+    }
+    .image17 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: 69%;
+    }
+    .image18 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: 69%;
+    }
+}
+    
+        
+

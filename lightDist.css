@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=EB+Garamond&family=Exo+2:wght@500&family=Roboto+Slab&family=Rubik:wght@400;500&family=Sora:wght@500&display=swap');
+
+body {
+    background: url(https://ak.picdn.net/shutterstock/videos/15922087/thumb/1.jpg);        
+    background-attachment: fixed;   
+    color: white;
+}
+.back {
+    padding-left: 11em;
+    padding-top: 5em;
+}
+
+.calculator {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding-top: 1em;
+    padding-left: 6em;
+    padding-right: 1em;
+    margin-left: 50em;
+    margin-right: 50em;
+    margin-top: 8em;
+    border-style: double;
+}
+button {
+    margin-left: 2em;
+    padding: 0.5em;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 22px;
+}
+h1 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 45px;
+}
+input {
+    margin-top: 2em;
+    padding-top: 2em;
+}
+.text {
+    font-size: 28px;
+}
+section {
+    background: white;
+    color: black;
+    margin-top: 10em;
+    margin-left: 22em;
+    margin-right: 22em;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-right: 2em;
+    border-radius: 20px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+p {
+    font-family: Cambria;
+    font-size: 23px;
+}
+h2 {
+    font-family: Cambria;
+    font-size: 34px;
+
+}
+h3 {
+    font-family: Cambria;
+    text-align: center;
+    font-size: 24px;
+}
+footer {
+    background: white;
+    color: black;
+    margin-left: 22em;
+    margin-right: 22em;
+    margin-top: 5em;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 510px) {
+    .calculator {
+        margin-left: 1em;
+        margin-right: 1em;
+        padding-left: 2.6em;
+    }
+    section {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    footer {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    h1 {
+        font-size: 38px;
+        padding-left: 0em;
+    }
+}

@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=EB+Garamond&family=Exo+2:wght@500&family=Roboto+Slab&family=Rubik:wght@400;500&family=Sora:wght@500&display=swap');
+
+body {
+        background: url(https://ak.picdn.net/shutterstock/videos/15922087/thumb/1.jpg);        
+        background-attachment: fixed;   
+}
+
+header {
+    background-color: black;
+    background-attachment: fixed;
+    padding-bottom: 1.4em;
+    color: rgb(222, 222, 230);
+    text-align: center;
+    padding-top: 0.2em;
+    border-bottom-style: outset;
+}
+.navbar {
+    padding: 50px;
+
+}
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.5em;
+
+}
+.navbar-dark .navbar-brand {
+    color: #dcdde1;
+
+}
+
+.nav-item {
+    padding-top: 1em;
+    background: #000000;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 49px;
+    padding-right: 17em;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+    background: rgb(0, 0, 255);
+    color: #0e0d0d;
+
+}
+.author {
+  padding-left: 33em;
+  padding-top: 1em;
+}
+  
+.paradoxes {
+    /*width: auto;*/
+    padding-left: 38em;
+  }
+  .paradoxes h1 {
+    font-size: 37px;
+      padding-top: 1em;
+      padding-left: 2.5em;
+      font-family: 'Exo 2', sans-serif;
+  }
+  .quotes h3 {
+    font-family: 'Piazzolla', serif;
+  }
+  
+  .para1 {
+    background-attachment: fixed;
+    background-color: white;
+    color: black;
+    padding: 2.3em 6em 5em 8em;
+    
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    
+  }
+  .para1 h6 {
+    padding-left: 4em;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(0, 0, 255);
+
+  }
+  .para2 {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 2.3em 6em 5em 8em;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+  }
+  .para2 h6 {
+    padding-left: 4em;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(0, 0, 255);
+
+  }
+  .section1 {
+    display: flex;
+    padding-bottom: 2em;
+  }
+  .paradoxes img {
+    border-radius: 50%;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 1);
+  }
+  
+  .quotes {
+    color: aliceblue;
+    padding-right: 33em;
+    padding-left: 33em;
+  }
+  .quotes h3 {
+    padding-left: 4em;
+  }
+  .quotes img {
+      border-top-style: solid ;
+  }
+  .long-title h1 {
+    padding-left: 0.4em;
+
+  }
+  
+@media screen and (max-width: 1020px) {
+    .paradoxes {
+      /* width:auto;*/    
+     
+      padding-left: 2em;
+      padding-right: 2em;
+   }
+   .navbar {
+    padding: 20px;
+
+}
+   .quotes {
+    padding-right: 2em;
+    padding-left: 1em;
+  }
+  .para1 {
+    background-color: red;
+    background-attachment: fixed;
+    color: black;
+    padding: 2.3em 6em 5em 8em;
+    
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    
+  }
+  .para2 {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 2.3em 9em 5em 8em;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+  }
+  .paradoxes img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 220px;
+
+}
+
+  }
+  @media screen and (max-width: 810px) {
+  .paradoxes {
+        margin-left: 2em;
+        margin-right: 1em;
+  }
+  .author {
+    padding-top: 1em;
+    padding-left: 20em;
+  }
+   .quotes {
+    padding-right: 5em;
+    padding-left: 1em;
+  }
+  .para1 {
+    background-color: aqua;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .para2 {
+    padding-left: 1em;
+    padding-right: 2em;
+  }
+  .para1 h1 {
+    padding-left: 2em;
+  }
+  .para2 h1 {
+    padding-left: 1em;
+  }
+  .paradoxes img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: 120px;
+  }
+}
+
+  @media screen and (max-width: 510px) {
+    .nav-item {
+        padding-top: 0em;
+        padding-bottom: 1em;
+    }
+    .paradoxes {
+       /* width:auto;*/    
+       padding-left: 1em;
+       padding-right: 1em;
+    }
+    .author {
+      padding-top: 1em;
+      padding-left: 27em;
+    }
+    .paradoxes h1 {
+        padding-top: 0em;
+        padding-left: 0em;
+        font-family: 'Exo 2', sans-serif;
+    }
+    .quotes {
+      padding-right: 1em;
+      padding-left: 2em;
+    }
+    .quotes h3 {
+      padding-left: 2em;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 16px;
+    }
+    .quotes img {
+      width: 50px;
+      height: 50px;
+    }
+    .section1 {
+      display: flex;
+    }
+    .para1 {
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+    .para1 h1 {
+      padding-left: 1.6em;
+    }
+    .para2 h1 {
+      padding-left: 1em;
+    }
+    h6 {
+      font-size: 2px;
+      padding-left: 0em;
+      font-family: 'Rubik', sans-serif;
+    }
+    .para2 {
+      padding-left: 2em;
+      padding-right: 2em;
+      padding-bottom: 1em;
+    }
+    .paradoxes img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100px;
+      height: 100px;
+    }
+    .long-title h1 {
+     padding-left: 1em;
+
+    }
+  
+}

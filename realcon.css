@@ -1,0 +1,814 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=EB+Garamond&family=Exo+2:wght@500&family=Roboto+Slab&family=Rubik:wght@400;500&family=Sora:wght@500&display=swap');
+
+body {
+    background: url(https://ak.picdn.net/shutterstock/videos/15922087/thumb/1.jpg);
+    color: white;
+    background-attachment: fixed;
+}
+header {
+    background-color: black;
+    background-attachment: fixed;
+    padding-bottom: 0.4em;
+    color: rgb(222, 222, 230);
+    text-align: center;
+    padding-top: 0.2em;
+}
+
+.back {
+    padding-left: 11em;
+    padding-top: 5em;
+}
+.UI {
+    font-size: 23px;
+}
+h1 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 57px;
+}
+.statement {
+    font-family: 'Cabin', sans-serif;
+    padding-right: 0.7em;
+    font-size: 20px;
+}
+h3 {
+    font-family: Cambria;
+    text-align: center;
+    font-size: 28px;
+}
+p {
+    font-family: Cambria;
+    padding-right: 0.8em;
+    font-size: 23px;
+}
+.learn-more {
+    font-size: 22px;
+}
+.points {
+    font-family: Cambria;
+    font-size: 22px;
+    padding-right: 0.7em;
+}
+.reality {
+    padding-right: 23em;
+    padding-left: 23em;
+}
+.rcon1 {
+    margin-top: 2em;
+    padding-top: 0.1em;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom: 1em;
+}
+.rcon2 {
+    margin-top: 2em;
+    padding-top: 0.1em;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom: 1em;
+}
+.rcon3 {
+    margin-top: 2em;
+    padding-top: 0.1em;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+}
+.rcon4 {
+    margin-top: 2em;
+    padding-top: 0.1em;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+}
+.rcon5 {
+    margin-top: 2em;
+    padding-top: 0.1em;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+}
+.rcon6 {
+    margin-top: 2em;
+    padding-top: 0.1em;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom:1em ;
+}
+.rcon7 {
+    margin-top: 2em;
+    padding-top: 0.1em;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom:1em ;
+}
+.rcon8 {
+    margin-top: 2em;
+    padding-top: 0.1em;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom:1em ;
+}
+.rcon9 {
+    margin-top: 2em;
+    padding-top: 0.1em;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom:1em ;
+}
+.rcon10 {
+    margin-top: 2em;
+    padding-top: 0.1em;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom:1em ;
+}
+.rcon11 {
+    margin-top: 2em;
+    padding-top: 0.1em;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom:1em ;
+}
+.rcon12 {
+    margin-top: 2em;
+    padding-top: 0.1em;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom:1em ;
+}
+.rcon13 {
+    margin-top: 2em;
+    padding-top: 0.1em;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom:1em ;
+}
+.rcon14 {
+    margin-top: 2em;
+    padding-top: 0.1em;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom:1em ;
+}
+.rcon15 {
+    margin-top: 2em;
+    padding-top: 0.1em;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom:1em ;
+}
+.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+.image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+.image3 {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;    
+}
+.image4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    height: 60%;
+  
+}
+.image5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27%;
+}
+
+.image7 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%; 
+}
+.image8 {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.image9 {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 53%;
+}
+.image10 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+.image11 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+.image12 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+.image13 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+.image14 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+.image15 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+.image16 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+.image17 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+.image18 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+.image19 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+.image20 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+.image21 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+.image22 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+.image23 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+.image24 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+.image25 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+.image26 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+a {
+    color: red;
+    text-decoration: none;
+    text-transform: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+a:active {
+    color: black;
+  }
+  
+a:visited {
+    color: purple;
+  }
+
+  @media screen and (max-width: 1020px){
+    .reality {
+        padding-left: 2em;
+         padding-right: 2em;
+    }
+    .pr {
+        font-size: 20px;
+    }
+    .statement {
+        font-size: 20px;
+    }
+    .points {
+        font-size: 20px;
+    }
+    .learn-more {
+        font-size: 25px;
+    }
+}  
+
+@media screen and (max-width: 810px) {
+    .reality {
+        padding-left: 2em;
+         padding-right: 2em;
+    }
+    .head {
+       font-size: 18px;
+   }
+   .statement {
+       font-size: 17px ;
+   }
+   .pr {
+       font-size: 19px;
+   }
+   .learn-more {
+       font-size: 20px;
+   }
+   .points {
+       padding-right: 0.5em;
+   }
+   .image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 40%;
+  
+   }
+   .image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 40%;
+  
+   }
+   .image3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;    
+   }
+  .image4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 60%;
+  
+    }
+    .image5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 47%;
+    }
+    .image6 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 67%;
+        height: 43%;
+        }
+
+    .image7 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%; 
+    }
+    .image8 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    }
+    .image9 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 63%;
+    }
+    .image10 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  
+    }
+    .image11 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  
+    }
+    .image12 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  
+    }
+    .image13 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  
+    }
+    .image14 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+   }
+   .image15 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+   }
+    .image16 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  
+    }
+    .image17 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  
+    }
+    .image18 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+    }
+    .image19 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  
+    }
+    .image20 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  
+    }
+    .image21 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  
+    }
+    .image22 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  
+    }
+    .image23 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+    }
+    .image24 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  
+    }
+    .image25 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+   }
+    .image26 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  
+    }
+
+}
+@media screen and (max-width: 510px) {
+    .paradoxes {
+        padding-left: 2em;
+        padding-right: 2em;    
+    }
+    h3 {
+        font-family: Cambria;
+        text-align: center;
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    .back {
+        padding-left: 3em;
+        padding-top: 2em;
+    }
+    .statement h2 {
+        font-size: 23px;
+    }
+    .statement b {
+        text-align: center;
+        padding-right: 0.5em;       
+    }
+
+    .pr {
+        font-size: 20px;
+        padding-right: 0.5em;
+    }
+    .points {
+        padding-right: 0.5em;
+        font-size:19px;
+    }
+    .learn-more {
+        font-size: 19px;
+    }
+    .image1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      
+       }
+       .image2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 47%;
+      
+       }
+       .image3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 73%;    
+       }
+      .image4 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 87%;
+        height: 70%;
+      
+        }
+        .image5 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 57%;
+        }
+        .image6 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 67%;
+            height: 43%;
+            }
+    
+        .image7 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 33%; 
+        }
+        .image8 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        }
+        .image9 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 53%;
+        height: 53%;
+        }
+        .image10 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        height: 50%;
+      
+        }
+        .image11 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+      
+        }
+        .image12 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+      
+        }
+        .image13 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+      
+        }
+        .image14 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+      
+       }
+       .image15 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+      
+       }
+        .image16 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+      
+        }
+        .image17 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+      
+        }
+        .image18 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+      
+        }
+        .image19 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+      
+        }
+        .image20 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+      
+        }
+        .image21 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+      
+        }
+        .image22 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+      
+        }
+        .image23 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      
+        }
+        .image24 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+      
+        }
+        .image25 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+      
+       }
+        .image26 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+      
+        }
+}   

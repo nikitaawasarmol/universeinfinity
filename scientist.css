@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=EB+Garamond&family=Exo+2:wght@500&family=Roboto+Slab&family=Rubik:wght@400;500&family=Sora:wght@500&display=swap');
+
+
+body {
+    background: url(https://ak.picdn.net/shutterstock/videos/15922087/thumb/1.jpg);
+    color: white;
+    background-attachment: fixed;
+}
+header {
+    background-color: black;
+    background-attachment: fixed;
+    padding-bottom: 0.4em;
+    color: rgb(222, 222, 230);
+    text-align: center;
+    padding-top: 0.2em;
+}
+.UI {
+    font-size: 23px;
+}
+.back {
+    padding-left: 11em;
+    padding-top: 5em;
+}
+h1 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 47px;
+}
+p {
+    font-family: Cambria;
+    font-size: 23px;
+    padding-right: 0.5em;
+}
+h3 {
+    font-family: Cambria;
+    text-align: center;
+    font-size: 28px;
+}
+.scientists {
+    /*width: auto;*/
+    padding-right: 23em;
+    padding-left: 23em;
+}
+
+.sci1 {
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom: 1em;
+}
+.sci2 {
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom: 1em;
+}
+.sci3 {
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom: 1em;
+}
+.sci4 {
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom: 1em;
+}
+.sci5 {
+    background-color: white;
+    color: black;
+    padding-left: 1.1em;
+    padding-bottom: 1em;
+}
+.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+  
+}
+.image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+.image3 {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;    
+}
+.image4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  
+}
+.image5 {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.image6 {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 23%;
+}
+.image7 {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%; 
+}
+
+@media screen and (max-width: 1020px){
+    .scientists {
+        padding-left: 2em;
+         padding-right: 2em;
+       
+    }
+    p {
+        font-size: 20px;
+    }
+    .image1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+        height: 60%;
+    }
+    .image2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        height: 50%;
+    }
+    .image3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image4 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+    }
+    .image5 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+        height: 60%;
+    }
+    .image6 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        height: 49%;
+    }
+    .image7 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+        height: 60%;
+    }
+}
+@media screen and (max-width: 510px) {
+    .back {
+        padding-left: 3em;
+        padding-top: 2em;
+    }
+
+    p {
+        font-size: 20px;
+        padding-right: 1em;
+    }
+    h3 {
+        font-family: Cambria;
+        text-align: center;
+        font-size: 18px;
+    }
+}
