@@ -19,16 +19,22 @@ header {
     padding-top: 5em;
 }
 .theories {
-    padding-left: 23em;
-    padding-right: 23em;
+    padding-left: 13em;
+    padding-right: 13em;
 
 }
 .UI {
-    font-size: 23px;
-}
+    font-family: 'Commissioner', sans-serif;
+  }
+  .UI h2 {
+    font-size: 30px ; 
+  }
+  .UI h3 {
+    font-size: 20px;
+  }
 h1 {
     font-family: 'Cabin', sans-serif;
-    font-size: 57px;
+    font-size: 35px;
 }
 .statement {
     font-family: 'Cabin', sans-serif;
@@ -38,19 +44,20 @@ h1 {
 h3 {
     font-family: Cambria;
     text-align: center;
-    font-size: 28px;
+    font-size: 17px;
+}
+h2 {
+    font-size: 20px;
 }
 p {
     font-family: Cambria;
     padding-right: 0.8em;
-    font-size: 23px;
+    font-size: 15px;
 }
-.learn-more {
-    font-size: 22px;
-}
+
 .points {
     font-family: Cambria;
-    font-size: 22px;
+    font-size: 15px;
     padding-right: 0.7em;
 }
 .rtheo1 {
@@ -180,14 +187,17 @@ display: block;
         padding-left: 2em;
         padding-right: 2em;
     }
-    .pr {
-        font-size: 20px;
+    p {
+        font-size: 13px;
     }
-    .statement {
-        font-size: 20px;
+    .UI h3 {
+        font-size: 18px;
+    } 
+    h1 {
+        font-size: 35px;
     }
     .points {
-        font-size: 20px;
+        font-size: 13px;
     }
     .learn-more {
         font-size: 25px;
@@ -198,17 +208,20 @@ display: block;
     padding-left: 2em;
     padding-right: 2em;
 }
-.head {
-   font-size: 18px;
+p {
+   font-size: 13px;
 }
-.statement {
-   font-size: 17px ;
+h1 {
+    font-size: 30px;
 }
-.pr {
-   font-size: 19px;
+h3 {
+    font-size: 15px;
 }
-.learn-more {
-   font-size: 20px;
+.UI h2 {
+    font-size: 25px;
+}
+.UI h3 {
+    font-size: 20px;
 }
 .points {
    padding-right: 0.5em;
@@ -306,31 +319,34 @@ width: 60%;
 }
 @media screen and (max-width: 510px) {
     .theories {
-        padding-left: 2em;
-         padding-right: 2em;     
+        padding-left: 1em;
+         padding-right: 1em;     
     }
     h1 {
-        font-size: 45px;
+        font-size: 30px;
     }
     h3 {
         font-family: Cambria;
         text-align: center;
-        font-size: 18px;
+        font-size: 15px;
     }
     .back {
         padding-left: 3em;
         padding-top: 2em;
     }
-    .pr {
-        font-size: 20px;
+    p {
+        font-size: 13px;
         padding-right: 0.5em;
     }
     .points {
         padding-right: 1.5em;
-        font-size:19px;
+        font-size:13px;
     }
-    .learn-more {
-        font-size: 19px;
+    .UI h2 {
+        font-size: 23px;
+    }
+    .UI h3 {
+        font-size: 18px;
     }
     .image1 {
         display: block;

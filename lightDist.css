@@ -15,10 +15,10 @@ body {
     color: white;
     border-radius: 30px;
     padding-top: 1em;
-    padding-left: 6em;
-    padding-right: 1em;
-    margin-left: 50em;
-    margin-right: 50em;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-left: 30em;
+    margin-right: 30em;
     margin-top: 8em;
     border-style: double;
 }
@@ -27,18 +27,18 @@ button {
     padding: 0.5em;
     border-radius: 20px;
     background-color: white;
-    font-size: 22px;
+    font-size: 17px;
 }
 h1 {
     font-family: 'Cabin', sans-serif;
-    font-size: 45px;
+    font-size: 35px;
 }
 input {
     margin-top: 2em;
     padding-top: 2em;
 }
 .text {
-    font-size: 28px;
+    font-size: 20px;
 }
 section {
     background: white;
@@ -59,17 +59,17 @@ img {
 }
 p {
     font-family: Cambria;
-    font-size: 23px;
+    font-size: 15px;
 }
 h2 {
     font-family: Cambria;
-    font-size: 34px;
+    font-size: 20px;
 
 }
 h3 {
     font-family: Cambria;
     text-align: center;
-    font-size: 24px;
+    font-size: 17px;
 }
 footer {
     background: white;
@@ -82,12 +82,96 @@ footer {
     padding-bottom: 2em;
     border-radius: 20px;
 }
+@media screen and (max-width: 1020px){
+    .calculator {
+        background-color: black;
+        color: white;
+        border-radius: 30px;
+        padding-top: 1em;
+        padding-left: 3em;
+        padding-right: 3em;
+        margin-left: 10em;
+        margin-right: 10em;
+        margin-top: 8em;
+        border-style: double;
+    }
+    section {
+        background: white;
+        color: black;
+        margin-top: 10em;
+        margin-left: 7em;
+        margin-right: 7em;
+        padding-left: 2em;
+        padding-top: 1em;
+        padding-right: 2em;
+        border-radius: 20px;
+    }
+    footer {
+        background: white;
+        color: black;
+        margin-left: 7em;
+        margin-right: 7em;
+        margin-top: 5em;
+        padding-left: 2em;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        border-radius: 20px;
+    }
+}
+@media screen and (max-width: 810px){
+    .calculator {
+        background-color: black;
+        color: white;
+        border-radius: 30px;
+        padding-top: 1em;
+        padding-left: 3em;
+        padding-right: 3em;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 8em;
+        border-style: double;
+    }
+    section {
+        background: white;
+        color: black;
+        margin-top: 10em;
+        margin-left: 1em;
+        margin-right: 1em;
+        padding-left: 2em;
+        padding-top: 1em;
+        padding-right: 2em;
+        border-radius: 20px;
+    }
+    footer {
+        background: white;
+        color: black;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 5em;
+        padding-left: 2em;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        border-radius: 20px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 13px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+}
 
 @media screen and (max-width: 510px) {
     .calculator {
         margin-left: 1em;
         margin-right: 1em;
-        padding-left: 2.6em;
+        padding-left: 2em;
+    }
+    h1 {
+        font-size: 30px;
     }
     section {
         margin-left: 1em;
@@ -97,8 +181,17 @@ footer {
         margin-left: 1em;
         margin-right: 1em;
     }
-    h1 {
-        font-size: 38px;
-        padding-left: 0em;
+    input {
+        margin-top: 1em;
+        padding-top: 1em;
+    }
+    p {
+        font-size: 13px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .points {
+        font-size: 13px;
     }
 }

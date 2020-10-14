@@ -18,32 +18,38 @@ header {
     padding-top: 5em;
 }
 .UI {
-    font-size: 23px;
-}
+    font-family: 'Commissioner', sans-serif;
+  }
+  .UI h2 {
+    font-size: 30px ; 
+  }
+  .UI h3 {
+    font-size: 20px;
+  }
 h1 {
     font-family: 'Cabin', sans-serif;
-    font-size: 57px;
+    font-size: 35px;
 }
 h3 {
     font-family: Cambria;
     text-align: center;
-    font-size: 25px;
+    font-size: 17px;
+}
+h2 {
+    font-size: 20px;
 }
 p {
     font-family: Cambria;
     padding-right: 0.8em;
-    font-size: 23px;
-}
-.learn-more h3 {
-    font-size: 22px;
+    font-size: 15px;
 }
 .points {
-    font-size: 22px;
+    font-size: 15px;
     padding-right: 0.7em;
 }
 .concept {
-    padding-right: 23em;
-        padding-left: 23em;
+    padding-right: 13em;
+    padding-left: 13em;
 
 }
 .con1 {
@@ -230,17 +236,29 @@ a:visited {
         padding-left: 2em;
          padding-right: 2em;
     }
-    .pr {
+    p {
+        font-size: 13px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    h3 {
+        font-size: 17px;
+    }
+    h2 {
         font-size: 20px;
     }
     .statement {
         font-size: 20px;
     }
     .points {
-        font-size: 20px;
+        font-size: 13px;
     }
-    .learn-more {
-        font-size: 25px;
+    .UI h2 {
+         font-size: 30px;
+    }
+    .UI h3 {
+        font-size: 18px;
     }
 }
 @media screen and (max-width: 810px) {
@@ -248,19 +266,19 @@ a:visited {
         padding-left: 2em;
          padding-right: 2em;
      }
-     .head {
-        font-size: 22px;
+    p {
+        font-size: 13px;
     }
-    .statement {
-        font-size: 19px ;
+    h1 {
+        font-size: 30px;
     }
-    .statement h2 {
+    h3 {
+        font-size: 15px;
+    }
+    .UI h2 {
         font-size: 25px;
     }
-    .pr {
-        font-size: 22px;
-    }
-    .learn-more {
+    .UI h3 {
         font-size: 20px;
     }
     .points {

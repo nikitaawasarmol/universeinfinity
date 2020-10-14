@@ -16,8 +16,14 @@ header {
     padding-top: 0.2em;
 }
 .UI {
-    font-size: 23px;
-}
+    font-family: 'Commissioner', sans-serif;
+  }
+  .UI h2 {
+    font-size: 30px ; 
+  }
+  .UI h3 {
+    font-size: 20px;
+  }
 
 .back {
     padding-left: 11em;
@@ -26,8 +32,8 @@ header {
 
 .facts {
     /*width: auto;*/
-    padding-right: 23em;
-    padding-left: 23em;
+    padding-right: 13em;
+    padding-left: 13em;
 }
 
 .para1 {
@@ -38,7 +44,7 @@ header {
 }
 h1 {
     font-family: 'Cabin', sans-serif;
-    font-size: 50px;
+    font-size: 35px;
     text-align: center;
     padding-bottom: 1em;
     border-bottom-style: solid;
@@ -47,7 +53,7 @@ h1 {
 ol {
     padding-top: 1em;
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 @media screen and (max-width: 1020px) {
@@ -74,12 +80,12 @@ ol {
         padding-top: 2em;
     }
     ol {
-        font-size: 20px;
+        font-size: 13px;
         padding-left: 1.5em;
         padding-right: 1.5em;
     }
     h1 {
-        font-size: 47px;
+        font-size: 30px;
         font-family: 'Cabin', sans-serif;
     }
     

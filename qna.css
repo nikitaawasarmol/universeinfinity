@@ -15,25 +15,31 @@ header {
     padding-top: 0.2em;
 }
 .UI {
-    font-size: 23px;
-}
+    font-family: 'Commissioner', sans-serif;
+  }
+  .UI h2 {
+    font-size: 30px ; 
+  }
+  .UI h3 {
+    font-size: 20px;
+  }
 h1 {
     font-family: 'Cabin', sans-serif;
-    font-size: 47px;
+    font-size: 35px;
 }
 h3 {
     font-family: Cambria;
     text-align: center;
-    font-size: 28px;
+    font-size: 17px;
 }
 p {
     font-family: Cambria;
     padding-right: 0.8em;
-    font-size: 23px;
+    font-size: 15px;
 }
 .points {
     font-family: Cambria;
-    font-size: 22px;
+    font-size: 15px;
     padding-right: 0.7em;
 }
 
@@ -43,8 +49,8 @@ p {
 }
 .qna {
     /*width: auto;*/
-    padding-right: 23em;
-    padding-left: 23em;
+    padding-right: 13em;
+    padding-left: 13em;
 }
 .qna1 {
     background-color: white;
@@ -52,6 +58,8 @@ p {
     padding-left: 2em;
     padding-right: 2em;
     padding-bottom: 1em;
+    padding-top: 0.1em;
+    border-radius: 15px;
 }
 .image1 {
     display: block;
@@ -127,10 +135,22 @@ display: block;
          padding-right: 2em;
        
     }
+    .UI h2 {
+        font-size: 30px;
+    }
+    .UI h3 {
+        font-size: 18px;
+    }
     p {
-        font-size: 20px;
+        font-size: 13x;
     }
     .points {
+        font-size: 13px;
+    }
+    h3 {
+        font-size: 17px;
+    }
+    h2 {
         font-size: 20px;
     }
     .image1 {
@@ -204,15 +224,23 @@ display: block;
 }
 @media screen and (max-width: 810px) {
     .qna {
-        padding-left: 2em;
-        padding-right: 2em;
+        padding-left: 1em;
+        padding-right: 1em;
     }
    p {
-       font-size: 19px;
+       font-size: 13px;
    }
    h1 {
-       font-size: 40px;
-        
+       font-size: 30px;
+   }
+   h3 {
+       font-size: 15px;
+   }
+   .UI h2 {
+       font-size: 25px;
+   }
+   .UI h3 {
+       font-size: 20px;
    }
    .points {
        padding-right: 1.7em;
@@ -289,14 +317,14 @@ display: block;
 
 @media screen and (max-width: 510px) {
     .qna {
-        padding-left: 2em;   
-        padding-right: 2em;
+        padding-left: 1em;   
+        padding-right: 1em;
     }
     h1 {
-        font-size: 24px;
+        font-size: 20px;
     }
     h3 {
-        font-size: 20px;
+        font-size: 15px;
     }
     .back {
         padding-left: 3em;
@@ -304,12 +332,12 @@ display: block;
     }
 
     p {
-        font-size: 20px;
+        font-size: 13px;
         padding-right: 0.5em;
     }
     .points {
         padding-right: 0.5em;
-        font-size:19px;
+        font-size:13px;
     }
    
     .image1 {

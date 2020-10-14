@@ -15,61 +15,82 @@ header {
     padding-top: 0.2em;
 }
 .UI {
-    font-size: 23px;
-}
+    font-family: 'Commissioner', sans-serif;
+  }
+  .UI h2 {
+    font-size: 30px ; 
+  }
+  .UI h3 {
+    font-size: 20px;
+  }
 .back {
     padding-left: 11em;
     padding-top: 5em;
 }
 h1 {
     font-family: 'Cabin', sans-serif;
-    font-size: 47px;
+    font-size: 35px;
 }
 p {
     font-family: Cambria;
-    font-size: 23px;
+    font-size: 15px;
     padding-right: 0.5em;
 }
 h3 {
     font-family: Cambria;
     text-align: center;
-    font-size: 28px;
+    font-size: 17px;
 }
 .scientists {
     /*width: auto;*/
-    padding-right: 23em;
-    padding-left: 23em;
+    padding-right: 13em;
+    padding-left: 13em;
 }
 
 .sci1 {
+    margin-top: 2em;
+    padding-top: 0.1em;
     background-color: white;
     color: black;
     padding-left: 1.1em;
     padding-bottom: 1em;
+    border-radius: 15px;
 }
 .sci2 {
+    margin-top: 2em;
+    padding-top: 0.1em;
     background-color: white;
     color: black;
     padding-left: 1.1em;
     padding-bottom: 1em;
+    border-radius: 15px;
 }
 .sci3 {
+    margin-top: 2em;
+    padding-top: 0.1em;
     background-color: white;
     color: black;
     padding-left: 1.1em;
     padding-bottom: 1em;
+    border-radius: 15px;
 }
 .sci4 {
+    margin-top: 2em;
+    padding-top: 0.1em;
     background-color: white;
     color: black;
     padding-left: 1.1em;
     padding-bottom: 1em;
+    border-radius: 15px;
 }
 .sci5 {
+    margin-top: 2em;
+    padding-top: 0.1em;
     background-color: white;
     color: black;
     padding-left: 1.1em;
     padding-bottom: 1em;
+    border-radius: 15px;
 }
 .image1 {
     display: block;
@@ -125,7 +146,10 @@ display: block;
        
     }
     p {
-        font-size: 20px;
+        font-size: 13px;
+    }
+    .UI h3 {
+        font-size: 18px;
     }
     .image1 {
         display: block;
@@ -175,15 +199,47 @@ display: block;
         height: 60%;
     }
 }
+@media screen and (max-width: 810px) {
+    .scientists {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .UI h2 {
+        font-size: 25px;
+    }
+    .UI h3 {
+        font-size: 20px;
+    }
+}
 @media screen and (max-width: 510px) {
+    .scientists {
+        padding-left: 1em;
+        padding-right: 1em;
+       
+    }
     .back {
         padding-left: 3em;
         padding-top: 2em;
     }
+    .UI h2 {
+        font-size: 23px;
+    }
+    .UI h3 {
+        font-size: 18px;
+    }
 
     p {
-        font-size: 20px;
+        font-size: 13px;
         padding-right: 1em;
+    }
+    h1 {
+        font-size: 30px;
     }
     h3 {
         font-family: Cambria;

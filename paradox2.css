@@ -14,7 +14,10 @@ header {
     padding-top: 0.2em;
 }
 .video {
-    margin-left: 40em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 .back {
@@ -22,39 +25,43 @@ header {
     padding-top: 5em;
 }
 .UI {
-    font-size: 23px;
-}
+    font-family: 'Commissioner', sans-serif;
+  }
+  .UI h2 {
+    font-size: 30px ; 
+  }
+  .UI h3 {
+    font-size: 20px;
+  }
 h3 {
     font-family: Cambria;
     text-align: center;
-    font-size: 28px;
+    font-size: 17px;
 }
 h1 {
     font-family: 'Cabin', sans-serif;
-    font-size: 57px;
+    font-size: 35px;
 }
-.statement {
-    font-family: 'Roboto', sans-serif;
-    padding-right: 0.7em;
+h2 {
     font-size: 20px;
-
 }
 p {
-    font-size: 23px;
     font-family: Cambria;
-    padding-right: 0.7em;
+    padding-right: 0.8em;
+    font-size: 15px;
+}
+.statement {
+    font-size: 15px;
+    font-family: Cambria;
 }
 .points {
     padding-right: 0.7em;
-    font-size: 22px;
-}
-.learn-more  {
-    font-size: 22px;
+    font-size: 15px;
 }
 .paradoxes {
-    padding-left: 23em;
-    padding-right: 23em;
-
+    /*width: auto;*/
+    padding-right: 13em;
+    padding-left: 13em;
 }
 .para1 {
     border-radius: 15px;
@@ -179,32 +186,70 @@ a:visited {
         padding-left: 2em;
         padding-right: 2em;
     }
-    .pr {
+    .UI h2 {
+        font-size: 30px;
+
+    }
+    .UI h3 {
+        font-size: 18px
+    }
+    p {
+        font-size: 13px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    h3 {
+        font-size:17px;
+    }
+    h2 {
         font-size: 20px;
+    }
+    .video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
     }
     .statement {
-        font-size: 20px;
+        font-size: 13px;
     }
     .points {
-        font-size: 20px;
+        font-size: 13px;
     }
-    .learn-more {
-        font-size: 25px;
-    }
+    
 }
 @media screen and (max-width: 810px) {
      .paradoxes {
         padding-left: 2em;
         padding-right: 2em;
      }
+     p {
+        font-size:  13px;
+     }
+     h1 {
+         font-size: 30px;
+     }
+     h3 {
+         font-size:15px;
+     }
+     .UI h2 {
+        font-size: 25px;
+    }
+     .UI h3 {
+        font-size: 20px;
+    }
+     .video {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 40%;
+     }
      .head {
         font-size: 20px;
     }
     .statement {
-        font-size:19px ;
-    }
-    .statement h2 {
-        font-size: 25px;
+        font-size:13px ;
     }
     .points {
         padding-right: 0.5em;
@@ -267,34 +312,34 @@ a:visited {
 }
 
 @media screen and (max-width: 510px) {
+    p {
+      font-size: 13px;   
+    }
+    h1 {
+        font-size: 30px;
+    }
     h3 {
-        font-family: Cambria;
-        text-align: center;
-        font-size: 22px;
+        font-size: 15px;
     }
+    iframe {
+        display: block;
+        margin-left: 0em;
+        margin-right: 0em;
+        width: 240%;
+        }
     .paradoxes {
-        padding-left: 2em;
-        padding-right: 2em;     
-    }
-    h1{
-        font-size: 45px;
+        padding-left: 1em;
+        padding-right: 1em;     
     }
     .back {
         padding-left: 3em;
         padding-top: 2em;
     }
-    .statement h2 {
-        font-size: 16px;
-    }
-    .statement b {
-        text-align: center;
-        padding-right: 0.5em;       
-    }
-    .pr {
-        font-size: 20px;
-        padding-right: 0.5em;
+    .statement {
+        font-size: 13px;
     }
     .points {
+        font-size: 13px;
         padding-right: 0.7em;
     }
     .image1 {
@@ -348,11 +393,5 @@ a:visited {
         margin-left: auto;
         margin-right: auto;
         width: 63%;
-    }
-    .video {
-        display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 15em;
     }
 }
