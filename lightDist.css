@@ -11,14 +11,15 @@ body {
 }
 
 .calculator {
+    text-align: center;
     background-color: black;
     color: white;
     border-radius: 30px;
     padding-top: 1em;
     padding-left: 3em;
     padding-right: 3em;
-    margin-left: 30em;
-    margin-right: 30em;
+    margin-left: 10em;
+    margin-right: 10em;
     margin-top: 8em;
     border-style: double;
 }
@@ -32,6 +33,7 @@ button {
 h1 {
     font-family: 'Cabin', sans-serif;
     font-size: 35px;
+    text-align: center;
 }
 input {
     margin-top: 2em;
@@ -44,8 +46,8 @@ section {
     background: white;
     color: black;
     margin-top: 10em;
-    margin-left: 22em;
-    margin-right: 22em;
+    margin-left: 10em;
+    margin-right: 10em;
     padding-left: 2em;
     padding-top: 1em;
     padding-right: 2em;
@@ -74,8 +76,8 @@ h3 {
 footer {
     background: white;
     color: black;
-    margin-left: 22em;
-    margin-right: 22em;
+    margin-left: 10em;
+    margin-right: 10em;
     margin-top: 5em;
     padding-left: 2em;
     padding-top: 1em;

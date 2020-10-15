@@ -42,8 +42,8 @@ header {
     background: #000000;
     font-weight: 600;
     text-transform: uppercase;
-    padding-left: 19em;
-    padding-right: 13em;
+    padding-left: 7em;
+    padding-right: 19em;
 }
 
 .navbar-dark .navbar-nav .nav-item .nav-link:hover {
@@ -58,8 +58,8 @@ header {
   
 .paradoxes {
     /*width: auto;*/
-    padding-left: 27em;
-    padding-right: 15em;
+    padding-left: 12em;
+    padding-right: 30em;
   }
   .paradoxes h1 {
       font-size: 33px;
@@ -74,6 +74,7 @@ header {
   }
   
   .para1 {
+    margin-left: 1em;
     padding-right: 1em;
     padding-left: 3em;
     padding-top: 1em;
@@ -92,6 +93,7 @@ header {
 
   }
   .para2 {
+    margin-right: 2em;
     padding-right: 3em;
     padding-left: 3em;
     padding-top: 1em;
@@ -131,7 +133,7 @@ header {
 
   }
   
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 991px) {
     .paradoxes {
       /* width:auto;*/    
       padding-left: 2em;
@@ -164,6 +166,7 @@ header {
     font-size: 17px;
   }
     .para1 {
+      background-color: blue;
      background-attachment: fixed;
      margin-left: 9em;
      color: black;
@@ -189,10 +192,16 @@ header {
 }
 
   }
-  @media screen and (max-width: 810px) {
+  @media screen and (min-width: 767px){
+    .paradoxes {
+       margin-left:1em ;
+       margin-right: 1em;
+    }
+  }
+  @media screen and (max-width: 767px) {
   .paradoxes {
-    padding-left: 1em;
-    padding-right: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
   }
   .author {
     padding-top: 1em;
@@ -203,20 +212,24 @@ header {
     padding-left: 1em;
   }
   .para1 {
-    margin-left: 8em;
+    background-color: green;
+    margin-left: 0em;
     margin-right: 0em;
+   
   }
   .para1 h1 {
+    font-size: 23px;
     text-align: center;
   }
   .para1 h6 {
     font-size: 12px;
   }
   .para2 {
-    padding-left: 2em;
-    padding-right: 2em;
+    margin-right: 0em;
+
   }
   .para2 h1 {
+    font-size: 23px;
     text-align: center;
   }
   .para2 h6 {
@@ -231,7 +244,7 @@ header {
   }
 }
 
-  @media screen and (max-width: 510px) {
+  @media screen and (max-width: 479px) {
     .nav-item {
         padding-top: 0em;
         padding-bottom: 1em;
@@ -274,6 +287,7 @@ header {
     }
     
     .para1 {
+      background-color: red;
       padding-left: 1em;
       margin-right: 0em;
       margin-left: 1em;
