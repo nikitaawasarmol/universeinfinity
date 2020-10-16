@@ -132,6 +132,23 @@ header {
     padding-left: 0.4em;
 
   }
+  footer {
+    border-color: #000000;
+    border-top-style: double;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 2em;
+  }
+  footer h1 {
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+  }
+  footer p {
+    font-family: 'Bitter', serif;
+    color: red;
+  }
   
 @media screen and (max-width: 991px) {
     .paradoxes {
@@ -166,7 +183,6 @@ header {
     font-size: 17px;
   }
     .para1 {
-      background-color: blue;
      background-attachment: fixed;
      margin-left: 9em;
      color: black;
@@ -212,7 +228,6 @@ header {
     padding-left: 1em;
   }
   .para1 {
-    background-color: green;
     margin-left: 0em;
     margin-right: 0em;
    
@@ -241,6 +256,9 @@ header {
     margin-right: auto;
     width: 120px;
     height: 120px;
+  }
+  footer p {
+    font-size: 12px;
   }
 }
 
@@ -287,7 +305,6 @@ header {
     }
     
     .para1 {
-      background-color: red;
       padding-left: 1em;
       margin-right: 0em;
       margin-left: 1em;
@@ -312,6 +329,16 @@ header {
     .long-title h1 {
      padding-left: 1em;
 
+    }
+    footer h1 {
+      font-size: 18px;
+
+    }
+    footer p {
+      font-size: 12px;
+    }
+    footer {
+      padding-bottom: 1em;
     }
   
 }
