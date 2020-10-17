@@ -135,15 +135,19 @@ header {
   footer {
     border-color: #000000;
     border-top-style: double;
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #d9e4dd;
+    color: #1a1919;
     text-align: center;
-    padding-top: 4em;
+    padding-top: 2em;
     padding-bottom: 2em;
   }
+  span {
+    color: #d32626;
+  }
   footer h1 {
+    font-weight: 400;
     font-family: 'Bitter', serif;
-    font-size: 20px;
+    font-size: 15px;
   }
   footer p {
     font-family: 'Bitter', serif;
@@ -153,7 +157,7 @@ header {
 @media screen and (max-width: 991px) {
     .paradoxes {
       /* width:auto;*/    
-      padding-left: 2em;
+      padding-left: 0em;
       padding-right: 2em;
   }
   .UI h2 {
@@ -184,7 +188,7 @@ header {
   }
     .para1 {
      background-attachment: fixed;
-     margin-left: 9em;
+     margin-left: 2.4em;
      color: black;
      border-bottom-left-radius: 20px;
      border-top-left-radius: 20px;
@@ -216,19 +220,19 @@ header {
   }
   @media screen and (max-width: 767px) {
   .paradoxes {
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 0em;
+    margin-right: 2em;
   }
   .author {
     padding-top: 1em;
-    padding-left: 20em;
+    padding-left: 15em;
   }
    .quotes {
-    padding-right: 5em;
+    padding-right: 2em;
     padding-left: 1em;
   }
   .para1 {
-    margin-left: 0em;
+    margin-left: 1.5em;
     margin-right: 0em;
    
   }
@@ -240,7 +244,7 @@ header {
     font-size: 12px;
   }
   .para2 {
-    margin-right: 0em;
+    margin-right: 3em;
 
   }
   .para2 h1 {
@@ -305,7 +309,7 @@ header {
     }
     
     .para1 {
-      padding-left: 1em;
+      padding-left: 2.2em;
       margin-right: 0em;
       margin-left: 1em;
     }
@@ -314,9 +318,10 @@ header {
       text-align: center;
     }
     .para2 {
-      padding-left: 1em;
+      
+      padding-left: 2em;
       margin-left: 0em;
-      margin-right: 1em;
+      margin-right: 0em;
       padding-bottom: 1em;
     }
     .paradoxes img {
@@ -331,7 +336,7 @@ header {
 
     }
     footer h1 {
-      font-size: 18px;
+      font-size: 12px;
 
     }
     footer p {
