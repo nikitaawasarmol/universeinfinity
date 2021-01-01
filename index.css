@@ -16,28 +16,26 @@ header {
 }
 .navbar-nav {
     padding: 20px;
-
 }
+
 .UI {
   font-family: 'Commissioner', sans-serif;
 }
+
 .UI h2 {
   font-size: 30px ; 
 }
+
 .UI h3 {
   font-size: 20px;
 }
-.navbar-brand {
-    font-weight: 600;
-    font-size: 5em;
 
-}
-.navbar-dark .navbar-brand {
+.navbar-dark {
     color: #dcdde1;
 
 }
 .nav-item {
-    font-size: 10px;
+    font-size: 70%;
     padding-top: 1em;
     background: #000000;
     font-weight: 600;
